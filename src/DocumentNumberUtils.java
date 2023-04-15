@@ -4,7 +4,7 @@
         public static void processDocumentNumber(String documentNumber) {
 
             if (!isValidDocumentNumber(documentNumber)) {
-                System.out.println("Некорректный формат §.");
+                System.out.println("Некорректный формат .");
                 return;
             }
 
